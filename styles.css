@@ -1,0 +1,305 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  display: block;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.padding-t2 {
+  padding-top: 20px;
+}
+
+.banner-mr1 {
+  margin-right: 10px;
+}
+
+.about-m3 {
+  margin-top: 30px;
+}
+
+.about-pr2 {
+  padding-right: 20px;
+}
+
+.card-mr10 {
+  margin-right: 10em;
+}
+
+.card-mt3 {
+  margin-top: 3em;
+}
+
+div.navbar nav {
+  margin: 0;
+  width: auto;
+  height: 70px;
+  display: flex;
+  padding: 10px 10px;
+  background-image: var(--green-background);
+}
+
+div.navbar nav ul {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+div.navbar nav ul li {
+  padding-right: 10px;
+  display: inline;
+  align-items: center;
+  position: relative;
+  top: 30%;
+}
+
+div.navbar nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--white-text);
+}
+
+div.banner {
+  background-image: url("./image/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px 250px;
+}
+
+div.banner h1 {
+  font-size: 34px;
+  letter-spacing: 3px;
+  color: var(--darker-grey-text);
+}
+
+div.banner p {
+  width: 43em;
+  margin-top: 5px;
+  font-size: 16px;
+  letter-spacing: 3px;
+  line-height: 1.6;
+  color: var(--dark-grey-text);
+}
+
+div.banner button {
+  cursor: pointer;
+  padding: 20px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: var(--transparent-background);
+  color: var(--darker-grey-text);
+}
+
+div.banner button img {
+  margin-right: 10px;
+}
+
+div.partners {
+  width: 100%;
+  display: flex;
+  background-color: var(--grey-backgrouhnd);
+}
+
+div.partners div {
+  margin: auto;
+}
+
+div.partners span img {
+  padding-right: 50px;
+}
+
+div.about {
+  width: 100%;
+  display: flex;
+  padding: 100px 0 50px 0;
+}
+
+div.about aside {
+  width: 50%;
+}
+
+div.about aside img {
+  position: relative;
+  float: right;
+  margin-right: 150px;
+}
+
+div.about article {
+  width: 50%;
+}
+
+div.about article h1 {
+  margin: 0;
+  width: 18em;
+  font-size: 34px;
+  letter-spacing: 3px;
+  color: var(--darker-grey-text);
+}
+
+div.about article p {
+  width: 42em;
+  font-size: 16px;
+  letter-spacing: 3px;
+  color: var(--dark-grey-text);
+  line-height: 1.6;
+}
+
+div.about article strong {
+  font-size: 16px;
+  letter-spacing: 3px;
+  color: var(--dark-grey-text);
+}
+
+div.about article div button {
+  cursor: pointer;
+  margin: 50px 30px 0 0;
+  padding: 20px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: var(--transparent-background);
+}
+
+div.about article div button img {
+  margin-right: 20px;
+}
+
+div.about article div a {
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--darker-grey-text);
+}
+
+div.features {
+  width: 100%;
+  background-image: var(--green-background);
+  color: var(--white-text);
+}
+
+div.features div.cardbox {
+  padding: 100px 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  place-content: center;
+}
+
+div.features div.cardbox div {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+div.features div.cardbox div h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 1.5em 0 1.5em 0;
+}
+
+div.features div.cardbox div p {
+  text-transform: lowercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  width: 20em;
+}
+
+div.testimonials {
+  background-color: var(--white-background);
+  padding: 100px 300px;
+  color: var(--dark-grey-text);
+}
+
+div.testimonials p {
+  width: 50em;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  background-color: var(--white-background);
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+div.testimonials div {
+  display: block;
+  text-align: center;
+}
+
+div.testimonials div h1 {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+div.testimonials div h2 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+div.lead {
+  background-image: var(--green-background);
+  color: var(--white-text);
+  padding: 100px 600px;
+}
+
+div.lead h1 {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+div.lead div {
+  display: flex;
+  place-content: center;
+}
+
+div.lead input {
+  width: 20em;
+  border: none;
+  padding: 15px 10px;
+  color: var(--green-text);
+}
+
+div.lead input::placeholder {
+  color: var(--green-text);
+}
+
+div.lead input:focus {
+  outline: none;
+}
+
+div.lead button {
+  cursor: pointer;
+  border: none;
+  padding: 10px 10px;
+  background-color: var(--white-background);
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 100px 600px;
+  font-size: 12px;
+  color: var(--darker-grey-text);
+}
