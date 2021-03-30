@@ -1,0 +1,18 @@
+:root {
+  --green-background: linear-gradient(
+    to bottom,
+    #41c27e,
+    #43bd7c,
+    #44b77b,
+    #46b279,
+    #47ad77
+  );
+  --transparent-background: #ffffff00;
+  --white-background: #ffffff;
+  --grey-backgrouhnd: #f3f3f3f3;
+
+  --green-text: #41c17d;
+  --white-text: #ffffff;
+  --dark-grey-text: #6e6c6c;
+  --darker-grey-text: #525252;
+}
